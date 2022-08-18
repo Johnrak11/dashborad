@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework-1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <video loop autoplay muted>
+        <source src="/Homework-1/image/Earth - 1175.mp4" type="video/mp4">
+        your browser does not support the video tag
+    </video>
+    <form action="#">
+        <header>
+            <h2>Create Account</h2>
+        </header>
+        <main>
+            <div class="name-content">
+                <div class="name">
+                    <label class="L-name">First Name</label>
+                    <input type="text" class="I-name" required maxlength="15" placeholder="enter your first name">
+                </div>
+                <div class="name">
+                    <label class="L-name">Last Name</label>
+                    <input type="text" class="I-name" required maxlength="15" placeholder="enter your first name">
+                </div>
+            </div>
+            <div class="email-content">
+                <label class="L-name">Email</label>
+                <input type="email" class="I-email" required placeholder="enter your email">
+            </div>
+            <div class="password-content">
+                <div class="password">
+                    <label class="L-name">Password</label>
+                    <input type="password" class="I-password" required placeholder="enter your password">
+                </div>
+                <div class="password">
+                    <label class="L-name">Confirm Password</label>
+                    <input type="password" class="I-password" required placeholder="enter your password again">
+                </div>
+            </div>
+            <div class="select-content">
+                <div class="select">
+                    <label class="L-name">Gender</label>
+                    <div class="radio">
+                        <input type="radio" required name="h" >
+                        <label>Male</label>
+                        <input type="radio" required name="h" >
+                        <label>Famale</label>
+                    </div>
+                </div>
+                <div class="select">
+                    <label class="L-name">Hobbies</label>
+                    <div class="check-box">
+                        <input type="checkbox" required >
+                        <label>Music</label>
+                        <input type="checkbox" required >
+                        <label>Sport</label>
+                        <input type="checkbox" required >
+                        <label>Travel</label>
+                        <input type="checkbox" required >
+                        <label>Movies</label>
+                    </div>
+                </div>
+            </div>
+            <div class="range-content">
+                <div class="number">
+                    <label class="L-name">Source of Income</label>
+                    <input type="number" class="I-number" required placeholder="Employed">
+                </div>
+                <div class="range">
+                    <label class="L-name">Icome</label>
+                    <div class="I-range">
+                        <input type="range">
+                        <span>20k</span>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-content">
+                <div class="profile">
+                    <label class="L-name">Upload Profile Picture</label>
+                    <input type="file" >
+                </div>
+                <div class="profile">
+                    <label class="L-name">Age</label>
+                    <input type="number" class="I-file" required placeholder="choose your age">
+                </div>
+            </div>
+            <div class="bio-content">
+                <label class="L-name">Bio</label>
+                <textarea id="#" cols="1" rows="4"></textarea>
+            </div>
+        </main>
+        <footer>
+            <button type="submit">Create</button>
+        </footer>
+    </form>
+</body>
+</html>
